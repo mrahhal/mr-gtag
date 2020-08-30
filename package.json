@@ -1,6 +1,6 @@
 {
   "name": "mr-gtag",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easy, strong typed, and a modern way to use google analytics gtag lib.",
   "main": "dist/umd/index.js",
   "module": "dist/es/index.js",
