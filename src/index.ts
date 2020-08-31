@@ -50,9 +50,9 @@ export function gtagRaw(...params: any[]) {
 // tslint:disable: unified-signatures, max-line-length
 export function gtag(command: 'config', trackingId: string, options?: { [prop: string]: any }): void;
 export function gtag(command: 'set', options: any): void;
-export function gtag(command: 'event', action: string, options?: any): void;
 export function gtag(command: 'event', action: 'page_view', options?: { page_title?: string; page_location?: string; page_path?: string }): void;
 export function gtag(command: 'event', action: 'exception', options?: { description?: string; fatal?: boolean }): void;
+export function gtag(command: 'event', action: string, options?: any): void;
 // tslint:enable: unified-signatures, max-line-length
 
 export function gtag(arg1: any, arg2: any, arg3?: any) {
