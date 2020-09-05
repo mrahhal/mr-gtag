@@ -39,7 +39,7 @@ Set a value:
 ```ts
 import { gtag } from 'mr-gtag';
 
-gtag('set', { ... })
+gtag('set', { ... });
 ```
 
 Send an event:
