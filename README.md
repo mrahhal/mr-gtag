@@ -10,12 +10,12 @@ Both umd and es bundles are produced, along with type definitions.
 ## Install
 
 ```
-npm i --save mr-gtag
+npm i mr-gtag
 ```
 
 ## Usage
 
-First, installing gtag injects the lib:
+First, calling `installGtag` injects the lib:
 ```ts
 import { installGtag } from 'mr-gtag';
 
@@ -50,10 +50,3 @@ gtag('event', 'page_view', { ... });
 ```
 
 Refer to the [google docs](https://developers.google.com/analytics/devguides/collection/gtagjs/pages) for more info and to see the different kinds of events you can send.
-
-## Development
-
-```
-npm i -g rollup
-npm i
-```
