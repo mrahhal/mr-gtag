@@ -40,7 +40,9 @@ export function installGtag(trackingId: string, options?: GtagConfigOptions): vo
   gtag('config', trackingId, options);
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function gtagRaw(...params: any[]) {
+  // eslint-disable-next-line prefer-rest-params
   anyWindow.dataLayer.push(arguments);
 }
 
@@ -52,6 +54,8 @@ export function gtag(command: 'event', action: 'exception', options?: { descript
 export function gtag(command: 'event', action: string, options?: any): void;
 // tslint:enable: unified-signatures, max-line-length
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function gtag(arg1: any, arg2: any, arg3?: any) {
+  // eslint-disable-next-line prefer-rest-params
   anyWindow.dataLayer.push(arguments);
 }
