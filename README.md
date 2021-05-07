@@ -52,3 +52,7 @@ Refer to the [google docs](https://developers.google.com/analytics/devguides/col
 
 - BREAKING CHANGE: Options that `installGtag` accepts were renamed to be the exact same as the gtag ones. Be sure to update those.
 - We now correctly handle registering more than one tracking id.
+
+### 1.0.0
+
+Initial version.
