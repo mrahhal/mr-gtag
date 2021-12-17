@@ -1,7 +1,7 @@
 # mr-gtag
 
 [![npm](https://img.shields.io/npm/v/mr-gtag.svg)](https://www.npmjs.com/package/mr-gtag)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 
 Easy, strong typed, and a modern way to use google analytics gtag lib.
 
